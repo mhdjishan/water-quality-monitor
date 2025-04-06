@@ -1,0 +1,25 @@
+# Arduino build files
+*.ino.*
+*.cpp.*
+*.h
+*.hex
+*.elf
+*.bin
+
+# Build folders
+build/
+*.d
+*.o
+
+# Arduino libraries
+libraries/
+
+# macOS files
+.DS_Store
+
+# IDE settings
+.vscode/
+*.code-workspace
+
+# Secrets
+credentials.h
